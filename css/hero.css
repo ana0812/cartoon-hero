@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+                          /* nu e nicio margine pe site.
+                          scrisul si pozele incep direct */
+
+}
+
+header{
+  background-color: BLACK;
+  text-align: center;
+}
+
+header h1{
+  color: white;
+}
