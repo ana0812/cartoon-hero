@@ -2,14 +2,54 @@ body{
   margin: 0;
                           /* nu e nicio margine pe site.
                           scrisul si pozele incep direct */
-
+  font-family:cursive, sans-serif;                        /* through the font family u acces fonts that are available on your computer
+  but not everybody can have it
+  so u use sans-serif so it uses other font for those
+  who don t have your specified, in our case cursive, font */
 }
 
 header{
   background-color: BLACK;
+
   text-align: center;
+      /* this will allign the text and the image in the center */
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+    /* this makes more space on the top and on the botttom
+    firstly i just used <br> in the html file - befor the image and after the header
+    but this way u get more space */
+}
+
+h1,h2{
+  font-family: 'Amatic SC', cursive;
+   /* i copied this from google fonts */
 }
 
 header h1{
-  color: white;
+  color: gainsboro;
+
+
+
+  font-size: 40px;
+}
+
+header img{
+  border-radius: 1000px;
+    /* this will make my image round */
+  width: 400px;
+    /* this will make the image a circle
+    the bigger the number is, the bigger the image will be
+    try for ex 150 */
+
+  border: 10px solid gainsboro;
+    /* the value of the border is actually a shortcut
+    first how wide it s gonna be
+    second the style of the border
+    third is the colour */
+
+  /* in order for the picture to be round u have to change the values to see how
+  they fit together
+  border-radius was 150 but i made it bigger - for some reason this is
+  as round as it can get */
 }
