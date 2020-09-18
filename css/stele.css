@@ -34,7 +34,8 @@ h2{
 main{
   background-color: gainsboro;
   text-align: center;
-  padding:30px 0 0 0;
+  padding-top: 30px;
+
 }
 
 p{
@@ -45,11 +46,11 @@ p{
 }
 
 ul{
-  /* padding-left: 250px; */
   font: georgia;
   font-size: 24px;
   text-align: left;
-  padding-left: 570px;
+  padding-left: 550px;
+  margin-right: auto;
 }
 
 li.puncte{
@@ -72,7 +73,8 @@ img.leia{
 }
 
 table{
-  padding-left: 275px;
+margin-left: auto;
+margin-right: auto;
 }
 
 footer{
