@@ -2,6 +2,7 @@ body{
   margin: 0;
                           /* nu e nicio margine pe site.
                           scrisul si pozele incep direct */
+
   font-family:cursive, sans-serif;                        /* through the font family u acces fonts that are available on your computer
   but not everybody can have it
   so u use sans-serif so it uses other font for those
@@ -27,6 +28,7 @@ h1,h2{
 }
 
 header h1{
+  color: white;
   color: gainsboro;
 
 
@@ -52,4 +54,3 @@ header img{
   they fit together
   border-radius was 150 but i made it bigger - for some reason this is
   as round as it can get */
-}
