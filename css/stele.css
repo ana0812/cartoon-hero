@@ -2,7 +2,7 @@ body{
   margin: 0;
 }
 
-header {
+header,div.stele {
     height: 100%;
     overflow: hidden;
     background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
@@ -11,7 +11,7 @@ header {
     text-align: center;
 }
 
-header h1{
+ h1{
   color: gainsboro;
   font-size: 60px;
 }
@@ -34,12 +34,14 @@ h2{
 main{
   background-color: gainsboro;
   text-align: center;
-  padding: 30px;
+  padding:30px 0 0 0;
 }
 
 p{
   font-style: georgia;
   font-size: 25px;
+  padding-right: 75px;
+  padding-left: 75px;
 }
 
 ul{
@@ -56,6 +58,38 @@ li.puncte{
   font-size: 24px;
 }
 
+
+img.prima_poza{
+  border-radius: 250px;
+  width: 400px;
+  border: 10px solid gainsboro;
+}
+
+img.leia{
+  border-radius: 100px;
+  border: 5px solid black;
+  height: 500px;
+}
+
+table{
+  padding-left: 275px;
+}
+
+footer{
+  height: 100%;
+  overflow: hidden;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
+  padding: 0;
+  font-size: 25px;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: gainsboro;
+}
 
 
 #stars {
